@@ -1,0 +1,47 @@
+{
+  "name": "hu-ui",
+  "version": "0.0.4",
+  "private": false,
+  "author": "An_Zj_Liu_io@manulife-sinochem.com",
+  "description": "初版",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/es/index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
+    "format": "prettier --write src/"
+  },
+  "dependencies": {
+    "@vant/area-data": "^2.0.0",
+    "amfe-flexible": "^2.2.1",
+    "echarts": "^5.5.1",
+
+    "vant": "^4.9.5",
+    "vue": "^3.4.29",
+    "vue-router": "^4.3.3"
+  },
+  "devDependencies": {
+    "@element-plus/nuxt": "^1.1.0",
+    "@rushstack/eslint-patch": "^1.8.0",
+    "@vant/auto-import-resolver": "^1.2.1",
+    "@vitejs/plugin-vue": "^5.0.5",
+    "@vue/eslint-config-prettier": "^9.0.0",
+    "eslint": "^8.57.0",
+    "eslint-plugin-vue": "^9.23.0",
+    "less": "^4.2.0",
+    "less-loader": "^12.2.0",
+    "postcss-pxtorem": "^6.1.0",
+    "prettier": "^3.2.5",
+    "terser": "^5.37.0",
+    "unplugin-auto-import": "^0.18.2",
+    "unplugin-vue-components": "^0.27.4",
+    "vite": "^5.3.1",
+    "vite-plugin-svg-icons": "^2.0.1area-"
+  }
+}

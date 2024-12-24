@@ -1,0 +1,37 @@
+@hy-black: #000;
+@hy-white: #fff;
+
+@hy-primary: #0000c1;
+@hy-success: #00a758;
+@hy-warning: #f49600;
+@hy-danger: #ec6453;
+
+@hy-black-border-color: #000;
+
+@hy-button-primary-border-color: #0000c1;
+@hy-button-success-border-color: #00a758;
+@hy-button-warning-border-color: #f49600;
+@hy-button-danger-border-color: #ec6453;
+
+.van-button {
+  &--primary {
+    background: @hy-primary;
+    border: 1px solid @hy-button-primary-border-color!important;
+  }
+  &--success {
+    border: 1px solid green;
+    background: @hy-success!important;
+    border: 1px solid @hy-button-success-border-color!important;
+  }
+  &--warning {
+    background: @hy-warning;
+    border: 1px solid @hy-button-warning-border-color;
+  }
+  &--danger {
+    background: @hy-danger;
+    border: 1px solid @hy-button-danger-border-color;
+  }
+  &--plain {
+    background: @hy-white!important;
+  }
+}
